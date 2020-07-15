@@ -1,0 +1,87 @@
+body{
+	background-color: white;
+}
+
+#tbl {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#tbl td, #tbl th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#tbl tr:nth-child(even){background-color: #f2f2f2;}
+
+#tbl tr:hover {background-color: #ddd;}
+
+#tbl th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #b8c5d8;
+	color: white;
+}
+
+.signUpForm{
+    width: 20%;
+    text-align: center;
+	display: grid;
+	margin-left: 20%;
+}
+
+#SignUpButton{
+border-radius: 20px;
+border: 1px solid #fcfaf1;
+ background-color: #0045ac;
+ color: #FFFFFF;
+ font-size: 12px;
+ font-weight: bold;
+ padding: 9px 25px;
+ letter-spacing: 1px;
+ text-transform: uppercase;
+ cursor: pointer;
+ width: 20%;
+ margin-left: 40%;
+}
+
+.signUpForm input{
+    margin: 1%;
+}
+
+.signUpForm select{
+    margin: 1%;
+}
+
+.userForm{
+    width: 30%;
+    text-align: center;
+	display: grid;
+	margin-left: 35%;
+}
+
+
+.userForm input{
+	margin: 1%;
+}
+	
+.userForm select{
+		margin: 1%;
+}
+
+#userBtn{
+	border-radius: 20px;
+	border: 1px solid #fcfaf1;
+	 background-color: #0045ac;
+	 color: #FFFFFF;
+	 font-size: 12px;
+	 font-weight: bold;
+	 padding: 9px 20px;
+	 letter-spacing: 1px;
+	 text-transform: uppercase;
+	 cursor: pointer;
+	 width: 30%;
+	 margin-left: 35%;
+	}
