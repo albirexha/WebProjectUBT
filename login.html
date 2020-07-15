@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Styles/loginForm.css">
+	<script src="Scripts/loginForm.js"></script>
+</head>
+<body>
+<div class="wrapper" style="padding-top: 3%;">
+	
+    <div class="container">
+		<form action="views/insertUserView.php" method="POST">
+		<div>
+		<div class="login" onclick="switchVisibleLogin()">Log In</div>
+		<div class="signup" onclick="switchVisibleSignUp()">Sign Up</div>
+		</div>
+		
+		<div class="login-form" id="login-form">
+			<h4 id="Usr"></h4>
+			<input id="emailLog" name ="usernameFL" type="text" placeholder="Email or Username" class="input"><br />
+			<input id="pwLog" name="passwordFL" type="password" placeholder="Password" class="input"><br />
+			<button name="loginBtn" class="btn"> log in</button>
+			<a style="font-family: sans-serif;" href="#">Forgot username/password?</a>
+		 </div>
+		
+        <div class="signup-form" id="signup-form" style="display: none;">
+          <input id="emailSI" type="email" name="emailField" placeholder="Your Email Address" class="input"><br />
+          <input id="userSI" type="text" name="usernameField"placeholder="Choose a Username" class="input"><br />
+          <input id="pwSI" type="password" name="passwordField" placeholder="Choose a Password" class="input"><br />
+		  <button name="signUPbtn" class="btn"> create account</button>
+        </div>
+		</form>
+      
+    </div>
+  </div>
+
+</body>
+</html>

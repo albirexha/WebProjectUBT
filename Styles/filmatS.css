@@ -1,0 +1,120 @@
+@font-face { font-family: Herbarium; 
+    src: url('Herbarium-Regular.otf'); }
+
+@font-face { font-family: roboto-regular; 
+        src: url('Roboto-Regular.ttf'); }
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+    font-family: roboto-regular, serif;
+    user-select: none;
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(53,53,56,1) 47%, rgba(0,212,255,1));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.header {
+    backdrop-filter: blur(30px);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 12vh;
+    overflow: hidden;   
+    z-index: 100;
+    position: fixed;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 3%;
+}
+
+.header-list li {
+    text-align: center;
+    position: relative;
+    padding: 8px 0 8px;
+    height: fit-content;
+    top: 25%;
+    width: 100px;
+    margin: 0px 3px;
+    color: white;
+    cursor:pointer;
+    font-size:15px;
+    
+}
+
+.filmat{
+    margin-top: 0vh;
+    height: 88vh;
+}
+
+#welcomeText{
+    font-family: Herbarium;
+    font-size: 35px;
+    color: yellow;
+    text-align: center;
+    margin: 0 40% 0 40%;
+    padding-top: 8%;
+}
+
+#welcomeText:hover{
+    color: red;
+}
+
+
+
+#liFix{
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+#liFix:hover{
+    color: red;
+}
+
+#moviesContainer{
+	display: flex;
+	justify-content: space-around;
+    padding-top: 5%;
+    font-family: roboto-regular;
+    color: white;
+    margin: 0 10% 0 10%;
+}
+
+
+
+.movie{
+    vertical-align: top;
+    text-align: center;
+    width: 200px;
+}
+
+.movie img{
+    width: 150px;
+    height: 220px;
+}
+.caption {
+    display: block;
+}
+
+.breakk {
+    width: 100%;
+    height: 0;
+  }
+
+.footer{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+

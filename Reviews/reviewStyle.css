@@ -1,0 +1,90 @@
+@font-face { font-family: roboto-regular; 
+    src: url('../Styles/Roboto-Regular.ttf'); }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: black;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    height: 12vh;
+    overflow: hidden;   
+    z-index: 100;
+    font-family: roboto-regular;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 3%;
+}
+
+.header-list li {
+    text-align: center;
+    position: relative;
+    padding: 8px 0 8px;
+    top: 25%;
+    width: 100px;
+    margin: 0px 3px;
+    color: white;
+    cursor:pointer;
+    font-size:15px;
+}
+
+#movieName{
+    font-family: roboto-regular;
+    text-align: center;
+    font-size: 50px;
+    height: 70vh;
+    width: 100%;
+    padding-top: 15%;
+}
+
+#movieName h3{
+    font-family: serif;
+    font-size: 30px;
+}
+
+#movieReview{
+    background-color: #f5efe0;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+
+#movieReview img{
+    width: 350px;
+    height: 220px;
+}
+
+#reviewText{
+    font-family: 'Times New Roman';
+    font-size: 1.2rem;
+    display: block;
+    margin:3% 25% 0% 25%;
+    text-align: left;
+    line-height: 1.76;
+}
+
+#reviewText p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer{
+    text-align: center;
+}
+
+#liFix{
+    text-decoration: none;
+    outline: none;
+    color: white;
+}

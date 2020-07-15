@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Styles/contactS.css">
+    </head>
+    <body>
+        <div class="header">
+            <ul class="header-list">
+                <li><a id="liFix" href="./index.php">HOME</a></li>
+                <li><a id="liFix" href="./filmat.php">FILMA</a></li>
+                <li><a id="liFix" href="./about.html">ABOUT</a></li>
+                <li><a id="liFix" href="./contact.html">CONTACT US</a></li>
+                <li><a id="liFix" href="login.html">LOG OUT</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+        <div class="left-side">
+            <h2>KONTAKTI</h2>
+            <br>
+            <h3>Per qdo pyetje, paqartesi apo qellim tjeter mund te na kontaktoni ne qdo kohe permes ueb-it apo edhe ne e-mail dhe ne numer te telefonit.</h3>
+            <br>
+            <p>Adresa: Rruga pa emer</p>
+            <p>MITROVICE, KOSOVE</p>
+            <br>
+            <p><b>Email:</b> recensimeshqip@gmail.com</p>
+            <br>
+            <p><b>Phone:</b> 044111111</p>
+        </div>
+        <div class="right-side">
+            <form class="contact-form" action="views/insertContactView.php" method="POST">
+                <div id="container">
+                <p>EMRI</p>
+                <input type="text" class="form" id="ConName" name="ConName" placeholder="Emri juaj...">
+                <p>EMAIL</p>
+                <input type="email" class="form" id="ConEmail" name="ConEmail" placeholder="Email juaj...">
+                <p>MESAZHI</p>
+                <textarea id="contactBox" name="Message" placeholder="Mesazhi apo pyetja qe doni te dergoni..." style="height:100px"></textarea>
+                <button name="SendBtn" id="btn">Submit</button>
+            </form>
+
+        </div>
+        </div>
+        </div>
+        <script src="Scripts/indexS.js"></script>
+        </body>
+</html>
